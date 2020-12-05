@@ -76,4 +76,4 @@ for index, column in enumerate(columns):
 	column.image(image_url, width=300, caption=name)
 	column.write(poke_info.iloc[index])
 
-st.sidebar.write('Once you enter your height and weight this dashboard calcluates the euclidean distance between you and 801 different pokemon to discover which three are closest in size to you!')
+st.sidebar.write('Once you enter your height and weight this dashboard calculates the Euclidean distance between you and 801 different pokemon to discover which three are closest in size to you!')
