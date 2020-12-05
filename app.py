@@ -77,3 +77,6 @@ for index, column in enumerate(columns):
 	column.write(poke_info.iloc[index])
 
 st.sidebar.write('Once you enter your height and weight this dashboard calculates the Euclidean distance between you and 801 different pokemon to discover which three are closest in size to you!')
+
+st.sidebar.markdown('[Repository Containing this code!](https://github.com/zfeldman7/pokemon-size-dashboard)')
+st.sidebar.markdown('[Repository for the entire Pokemon project!](https://github.com/zfeldman7/data-science/tree/main/final-project)')
