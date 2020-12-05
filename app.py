@@ -11,8 +11,9 @@ import numpy as np
 import math
 
 pokemon_data = pd.read_csv( 'pokemon_data.csv' )
-
+st.sidebar.title('Created by Zach and Dennis for MA346')
 st.title('Which Pokemon are closest to you in size?')
+
 
 # user input fields on sidebar
 st.sidebar.write('Enter your Height and Weight')
@@ -74,3 +75,5 @@ for index, column in enumerate(columns):
 	
 	column.image(image_url, width=300, caption=name)
 	column.write(poke_info.iloc[index])
+
+st.sidebar.write('Once you enter your height and weight this dashboard calcluates the euclidean distance between you and 801 different pokemon to discover which three are closest in size to you!')
